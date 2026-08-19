@@ -1,15 +1,13 @@
 
-package thread;
+package jdbc;
 
+import java.sql.SQLException;
 
-public class main 
+public class Main
 {
-    public static void main(String[] args) 
+    public static void main(String[] args) throws ClassNotFoundException, SQLException
     {
-        Print_Num p = new Print_Num();
-        p.start();
-        
-        
+        Controller.start();
         
     }
     
